@@ -1,0 +1,164 @@
+/* ===== BASE ===== */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #f8fafc; /* fond clair */
+  color: #1e293b; /* texte principal */
+  scroll-behavior: smooth;
+}
+
+/* ===== MENU ===== */
+.nav-container {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+}
+.logo {
+  color: #e11d48;
+  margin: 0;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+.nav-links a {
+  color: #1e293b;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+.nav-links a:hover {
+  color: #e11d48;
+}
+
+/* ===== EN-TÊTE ===== */
+header {
+  text-align: center;
+  padding: 60px 20px;
+}
+header img {
+  border-radius: 50%;
+  border: 3px solid #e11d48;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+header h1 {
+  color: #e11d48;
+  margin: 20px 0 10px;
+}
+header p {
+  color: #64748b;
+}
+
+/* ===== SECTIONS ===== */
+main {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  padding-bottom: 60px;
+}
+section {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 25px;
+  margin-top: 25px;
+}
+section h2 {
+  padding-left: 10px;
+  color: #e11d48;
+  margin-bottom: 10px;
+}
+
+/* ===== COMPÉTENCES ===== */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.skills-list li {
+  background-color: #e2e8f0;
+  padding: 8px 14px;
+  border-radius: 50px;
+  font-size: 14px;
+}
+
+/* ===== PROJETS ===== */
+.project {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 15px;
+  border: 1px solid #e2e8f0;
+}
+.project div {
+  padding: 15px;
+}
+.project h3 {
+  color: #0ea5e9;
+  margin: 0 0 10px;
+}
+
+/* ===== CONTACT ===== */
+#contact a {
+  color: #0ea5e9;
+  text-decoration: none;
+  font-weight: bold;
+}
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* ===== PIED DE PAGE ===== */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #64748b;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+/* ===== FORMATIONS ===== */
+.formation {
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 15px;
+}
+.formation h3 {
+  color: #0ea5e9;
+  margin-bottom: 5px;
+}
+.formation p {
+  margin: 5px 0;
+  color: #334155;
+}
+
+/* ===== BOUTONS "VOIR PLUS" ===== */
+.voirplus {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.bouton {
+  background-color: #e11d48;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.bouton:hover {
+  background-color: #e11d48;
+}
