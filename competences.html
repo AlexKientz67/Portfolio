@@ -46,19 +46,39 @@
     <section id="projects">
       <h2>Projets</h2>
 
-      <div class="project">
-        <div>
-          <h3>BUT RT : SAÉ1.01 - Sensibilisation à l'hygiène informatique et à la cybersécurité</h3>
-          <p>Conception et configuration d’un réseau local complet avec Cisco Packet Tracer : VLAN, adressage IP et
-            routage statique.</p>
-        </div>
-      </div>
 
       <div class="project">
         <div>
-          <h3>Personnel : Installation d'un cluster Proxmox</h3>
-          <p>Installation d’un cluster Proxmox permettant d’interconnecter plusieurs nœuds pour la haute disponibilité,
-            la gestion centralisée des machines virtuelles et la répartition des ressources.</p>
+          <h3>Personnel : Conception & Administration de mon réseau avancé</h3>
+          <p>Mise en place d’une infrastructure réseau complète comprenant plusieurs VLAN, du routage inter-VLAN,
+            des services segmentés et un tunnel GRE permettant de faire remonter des IP publiques depuis un VPS vers
+            mon réseau domestique. Cette architecture me permet d’héberger des services accessibles depuis Internet,
+            de sécuriser les communications et de gérer efficacement les différentes zones de mon réseau.</p>
+          <img src="img/network2.png" alt="Photo de l'installation réseau">
+
+          <img src="img/network3.png" alt="Photo de l'installation réseau 2">
+          <img src="img/network1.png" alt="Réseau avancé et tunnel GRE">
+        </div>
+      </div>
+      <div class="project">
+        <div>
+          <h3>Personnel : Script d'installation automatisée de Zabbix Agent</h3>
+          <p>Script permettant d’installer automatiquement l’agent Zabbix sur une machine Linux.
+            Il configure le dépôt, installe l’agent, règle les paramètres de connexion avec le serveur Zabbix et active
+            le service.</p>
+
+          <p><strong>Fonctionnalités :</strong></p>
+          <ul>
+            <li>Installation automatique du paquet Zabbix Agent</li>
+            <li>Paramétrage automatique du serveur Zabbix à contacter</li>
+            <li>Démarrage + activation du service au boot</li>
+            <li>Compatible avec les distributions Linux courantes</li>
+          </ul>
+
+          <p>
+            <a href="https://github.com/AlexKientz67/Zabbix-Linux-AutoInstall" target="_blank">Voir le projet sur
+              GitHub</a>
+          </p>
         </div>
       </div>
       <div class="project">
@@ -66,6 +86,18 @@
           <h3>Personnel : Installation & Configuration d'un service de VoIP</h3>
           <p>Configuration d’Asterisk et des PABX Mitel 430 et Mitel 5000, avec mise en place de trunks SIP entre les
             systèmes. Gestion des appels, transferts et messagerie vocale, ainsi que des postes Mitel 6867i.</p>
+          <img src="img/voip.png" alt="Cluster Proxmox">
+        </div>
+      </div>
+      <div class="project">
+        <div>
+          <h3>Personnel : Installation d'un cluster Proxmox</h3>
+
+          <p>Installation d’un cluster Proxmox permettant d’interconnecter plusieurs nœuds
+            pour la haute disponibilité, la gestion centralisée des machines virtuelles et la
+            répartition intelligente des ressources.</p>
+
+          <img src="img/proxmox.png" alt="Cluster Proxmox">
         </div>
       </div>
       <div class="project">
@@ -79,6 +111,12 @@
     </section>
     <!-- ===== PIED DE PAGE ===== -->
     <footer>
+      <h3><strong>Contactez-moi :</strong></h3>
+      <p><a href="mailto:alexkientz6@gmail.com">alexkientz6@gmail.com</a></p>
+      <p>
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/AlexKientz67" target="_blank">GitHub</a>
+      </p>
       <p>2025 — KIENTZ ALEXANDRE</p>
     </footer>
 </body>
