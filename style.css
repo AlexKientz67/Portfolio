@@ -1,8 +1,8 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  background-color: #f8fafc; /* fond clair */
-  color: #1e293b; /* texte principal */
+  background-color: #f8fafc;
+  color: #1e293b;
   scroll-behavior: smooth;
 }
 
@@ -73,7 +73,6 @@ section h2 {
   margin-bottom: 10px;
 }
 
-/* ===== COMPÉTENCES ===== */
 .competence-list {
   display: flex;
   flex-wrap: wrap;
@@ -89,7 +88,6 @@ section h2 {
   font-size: 14px;
 }
 
-/* ===== PROJETS ===== */
 .project {
   border-radius: 10px;
   overflow: hidden;
@@ -104,7 +102,6 @@ section h2 {
   margin: 0 0 10px;
 }
 
-/* ===== CONTACT ===== */
 #contact a {
   color: #0ea5e9;
   text-decoration: none;
@@ -114,7 +111,6 @@ section h2 {
   text-decoration: underline;
 }
 
-/* ===== PIED DE PAGE ===== */
 footer {
   text-align: center;
   color: #64748b;
@@ -133,7 +129,6 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* ===== FORMATIONS ===== */
 .formation {
   border: 1px solid #e2e8f0;
   border-radius: 10px;
@@ -149,7 +144,6 @@ footer a:hover {
   color: #334155;
 }
 
-/* ===== BOUTONS "VOIR PLUS" ===== */
 .voirplus {
   text-align: center;
   margin-top: 20px;
@@ -174,4 +168,18 @@ footer a:hover {
   border-radius: 15px;
   display: block;
   margin: 0 auto 5px;
+}
+
+.grid-apropos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.column-block {
+  padding: 25px;
+  border-radius: 15px;
+  border: 1px solid #e2e8f0;
+
 }
